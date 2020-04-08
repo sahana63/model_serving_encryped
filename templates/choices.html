@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SecureML</title>
+
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+ 	<link href="fontawesome-free-5.9.0-web/css/all.css" rel="stylesheet"> <!--load all icon styles -->
+ 	<!--link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"-->
+
+
+	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bahianita&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+
+</head>
+
+<body>
+
+	<header>
+		<div class="header_in">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-6">
+						<div class="logo">
+							<a href="/index/" style = "color: #000000;"><i class="fas fa-user-graduate"></i> SecureML</a>
+						</div>
+					</div>
+
+					<div class="col-md-2">
+						<div class="usern">
+					 		<i class="far fa-user"></i>
+						</div>
+					</div>
+
+			    </div>
+			</div>
+		</div>
+	</header>
+
+<section>
+	<center>
+	<h1>Model prediction</h1>
+<h4>Choose model</h4>
+
+	<div class="rollblock" style="background-color: #226A9E;">
+		<div class="container">
+			<div class="row">
+{% for i in range(len) %}
+				<div class="col-md-4">
+					<div class="imgblock">
+						<a href = ""><img src={{models[i][1]}} alt="ONE" style="height:200px;width:200px"></a>
+					</div>
+					<div class="txtblock" style="background-color:#ffffff; padding: 20px;">
+						<a href={{link_list[i]}}>{{models[i][0]}}</a>
+					</div>
+				</div>
+
+{% endfor %}
+			</div>
+
+		</div>
+	</div>
+		</center>
+</section>
+
+
+<footer>
+	<div class="container">
+		<div class="endline">
+			<p>ABOUT / HELP / CONTACT US / SITE GUIDELINES / AD CHOICES / TERMS & CONDITIONS / PRIVACY POLICY / COPYRIGHT COMPLIANCE POLICY © 2019 - All Rights Reserved.</p>
+		</div>	
+	</div> 
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,456 @@
+header {
+
+	/*background-color: #b3270e; */
+	padding: 15px 0;
+
+}
+
+.logo a {
+
+	color:#ffffff;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 24px;
+}
+
+.social_icon
+{
+	float:right;
+}
+
+.social_icon li{
+	display: inline-block;
+	color:#ffffff;
+	font-size: 20px;
+    padding: 0 5px;
+}
+
+.border-radius {
+
+	border-radius: 10px;
+	border:0;
+}
+
+.login_button {
+
+	background-color:#ffffff;
+    border-radius: 20px;
+    padding: 8px 18px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    float: right;
+  	font-style: oblique;
+}
+
+.usern{
+	font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 18px;
+    display:inline-block;
+}
+section { 
+  display: block;
+}
+
+/*
+.uno{
+    background-image: url('/static/images/x.jpg') !important;
+    background-image: url('{{ url_for('static', filename='img/home.jpg') }}')
+}
+*/
+
+.searchblock {
+	/* background-color: #c9ccd1; */
+	
+	padding: 100px 0;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.searchbox {
+	padding: 15px 200px;
+    border-radius: 16px;
+    border: 0;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.searchbut{
+	background: transparent;
+	border:0;
+}
+
+.rollblock
+{
+    background-color: #226A9E;
+}
+
+.findcollege
+{
+	font-size: 36px;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.chooseblock
+{
+	/* background-color: #b3270e; */
+    background-color: #226A9E;
+	text-align: center;
+}
+
+.choosesub
+{
+	font-size: 15px;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.choosesub h1
+{
+	font-size: 20px;
+}
+
+#choosebut{
+	
+	font-style: oblique;
+    font-size: 20px;
+	text-align: center;
+    margin: 20px auto;
+    padding: 8px 28px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #ffffff;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 150px;
+}
+
+#studlogbut{
+    
+    font-style: oblique;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px 47px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #ffffff;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+form{
+	text-align: center;
+    margin: 0 auto;
+}
+section
+{
+	display: block;
+}
+
+.imgblock
+{
+	margin-top: 40px;
+	width: 100%;
+	margin-bottom: 40px;
+}
+.imgblock img {
+	width: 100%;
+	height: 200px;
+}
+
+
+.txtblock
+{
+	padding: 10px;
+    text-align: center;
+    background: #ddd;
+    width: 100%;
+
+}
+
+section .searchkeyword{
+	display: block;
+	padding: 28px;
+    background: #ccc;
+    text-align: center;
+}
+
+.row h6{
+	text-align: center;
+    margin: 0 auto;
+}
+
+section .top{
+	display: block;
+	padding: 100px 0;
+
+}
+.listing_view {
+	    /* background: #ccc; */
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.collegepic img{
+	width: 100%;
+}
+
+section .collegedetails{
+	display: block;
+	padding: 40px 0;
+}
+
+.collegerow {
+	    /* background: #ccc; */
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.fillerimag img{
+	width:100%;
+}
+
+.checked {
+  color: orange;
+}
+
+section .loginpage{
+	display:block;
+	padding: 82px 0;
+}
+
+.login {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    padding: 8px 20px
+}
+
+.login h3{
+	margin-bottom:30px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 36px;
+
+}
+
+.usernamebox{
+	border-radius: 10px;
+	border:0;
+    margin-bottom: 10px;
+    padding: 8px 23px;
+    background: #ffe4c4;
+
+}
+
+#descriptionbox{
+    border-radius: 10px;
+    border:0;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    background: #ffe4c4;
+    height:162px;
+    width:442px;
+}
+
+#dropdownchoice{
+    border-radius: 10px;
+    border:0;
+    margin-bottom: 10px;
+    padding: 8px 23px;
+    background: #ffe4c4;
+
+}
+
+#usertext{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+}
+
+
+footer {
+	background-color: #000000;
+	margin:0px 0px;
+}
+
+.endline p{
+	color: #ffffff;
+
+
+}
+
+.floatleft {
+
+	text-align: left;
+}
+.floatright {
+	text-align : right;
+
+}
+
+.margin{
+	margin-bottom: 10px;
+}
+
+input {
+	margin-bottom: 10px;
+}
+
+
+#loginbut{
+	
+	font-style: oblique;
+    font-size: 20px;
+	text-align: center;
+    margin: 20px auto;
+    padding: 8px 28px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #226A9E;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 150px;
+}
+
+#Forget{
+	margin-left:20px;
+	font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    color:#ffffff;
+
+}
+
+.sinup
+{
+	margin-top:20px;
+}
+
+#Sinupbut{
+	font-style: oblique;
+    font-size: 20px;
+	text-align: center;
+    margin: -8px auto;
+    padding: 8px 28px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #226A9E;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+#Signupbut{
+	font-style: oblique;
+    font-size: 20px;
+	text-align: center;
+    margin: 20px auto;
+    padding: 8px 28px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #226A9E;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+#actline{
+	margin: 0 0 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.feed{
+	margin-top: 50px;
+}
+
+#ratebut{
+	margin-top: 20px;
+}
+
+#updatebut{
+	font-style: oblique;
+    font-size: 20px;
+	margin-top: 20px;
+	padding: 14px 14px;
+    border-radius: 4px;
+    border: 0;
+    background-color: #b3270e;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.submit
+{
+	margin:0 auto;
+	text-align: center;
+}
+
+#submitbut {
+	font-style: oblique;
+    font-size: 20px;
+	text-align: center;
+    margin: 20px auto;
+    padding: 15px 50px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #b3270e;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.colgin{
+	margin-top: 50px;
+}
+
+
+.social_icon li a{
+	color: #ffffff;
+}
+
+#searchicon {
+	font-size: x-large;
+	/* color:#a61903; */
+	color: #ffffff;
+}
+
+.Resultnull p{
+	margin: 0 0 0px;
+	text-align: center;
+    font-family: 'Bahianita', cursive;
+    font-size: 60px;
+}
+
+.Resultnull p2{
+	margin: 0 0 10px;
+	text-align: center;
+    font-family: 'Bahianita', cursive;
+    font-size: 40px;
+}
+
+footer
+{
+    margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.uploadbox{
+    text-align: center;;
+}
+
+.uploadtext{
+    padding: 40px;
+}
+
+#uploaddesc {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+
+}

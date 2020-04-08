@@ -1,0 +1,19 @@
+header{
+    font-family: 'Roboto Condensed',sans-serif;
+    font-size: 24px;
+    padding: 24px;
+}
+
+.rollblock{
+    padding: 100px;
+}
+
+.txtblock a{
+    font-family: 'Roboto Condensed',sans-serif;
+}
+
+footer
+{
+    margin-top: 500px;
+    margin-bottom: -100px
+}
