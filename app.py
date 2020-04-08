@@ -75,6 +75,8 @@ def imgup():
         title = request.form['title']
         file = request.files["filename"]
         print(title,file.filename)
+        if file.filename == '':
+            return render_template('ImgUp.html',error='no file uploaded')
         if file and '.' in file.filename and file.filename.rsplit('.', 1)[1].lower() in set(['png', 'jpg', 'jpeg', 'gif']):
             try:
                 print('saving file')
@@ -86,7 +88,7 @@ def imgup():
                 cur.execute(""" insert into user_data(email,data_uploaded)  VALUES (%s,%s);""",
                             (session['email'], old_image))
                 # DL
-                label='ripe'
+                label=grocery_predict(filename)
                 # add to database
                 cur.execute("insert into prediction(modelid,label,dataid) values (%s,%s,%s);", (1,label,cur.lastrowid))
                 mysql.connection.commit()
